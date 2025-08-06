@@ -27,12 +27,12 @@
             </div>
 
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Enter pickup city" />
+                <input type="text" style="border-radius: 15px;" class="form-control" placeholder="Enter pickup city" />
                 <i class="fas fa-location-arrow icon-right"></i>
             </div>
 
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Enter destination city" />
+                <input style="border-radius: 15px;" type="text" class="form-control" placeholder="Enter destination city" />
                 <i class="fas fa-map-marker-alt icon-right"></i>
             </div>
 
@@ -41,11 +41,11 @@
                 <i class="fas fa-plus-circle icon-right"></i>
             </div>
 
-            <div class="input-group">
-                <select class="country-code">
+            <div class="input-group" style="flex-wrap: unset;">
+                <select class="country-code" style="border-radius: 15px 0px 0px 15px;">
                     <option>+91</option>
                 </select>
-                <input type="text" class="form-control" placeholder="8104881897" />
+                <input style="border-radius: 0px 15px 15px 0px;" type="text" class="form-control" placeholder="8104881897" />
                 <i class="fas fa-mobile-alt icon-right"></i>
             </div>
 
