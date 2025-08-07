@@ -42,7 +42,7 @@
             </div>
 
             <div class="input-group" style="flex-wrap: unset;">
-                <select class="country-code" style="border-radius: 15px 0px 0px 15px;">
+                <select class="country-code" style="border: unset;border-radius: 15px 0px 0px 15px;">
                     <option>+91</option>
                 </select>
                 <input style="border-radius: 0px 15px 15px 0px;" type="text" class="form-control" placeholder="8104881897" />
