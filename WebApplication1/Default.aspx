@@ -49,7 +49,7 @@
                 <i class="fas fa-mobile-alt icon-right"></i>
             </div>
 
-            <button class="book-btn">Check Price & Book Cab</button>
+            <button class="book-btn">Check Price & Book CabR</button>
         </div>
     </div>
 
