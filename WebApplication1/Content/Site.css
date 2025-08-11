@@ -46,7 +46,7 @@
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
    
 }
-
+/*
 .tabs {
     display: flex;
     justify-content: space-between;
@@ -165,10 +165,232 @@
     font-weight: bold;
     cursor: pointer;
     margin-top: 10px;
-}
+}*/
 /*Testing by Rahul */
+body {
+    line-height: 1.5;
+}
+.text-bold {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.card {
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    background-color: #fff;
+}
+.booking-block {
+    border-radius: 0;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.text-center {
+    text-align: center;
+}
+.booking-block .block-heading {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.booking-block .block-heading {
+    margin: -20px -20px 20px -20px;
+    background-color: #fdb813;
+    padding: 5px;
+    font-weight: 400;
+}
+#booking-panel {
+    margin-top: 80px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+    color: #000;
+}
 
 
+
+.grey-box {
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    height: 50px;
+}
+
+.text-left {
+    text-align: left;
+}
+.hover-yellow-box {
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    height: 50px;
+}
+
+.top-selector-active {
+    background-color: #fdb813 !important;
+    border-bottom: none !important;
+}
+.text-bold {
+    font-weight: 500;
+    font-size: 22px;
+}
+@media (min-width: 992px) {
+    .grey-box {
+        height: 60px;
+    }
+    .booking-block {
+        border-radius: 20px;
+        margin-bottom: 70px;
+        box-shadow: unset;
+    }
+    .hover-yellow-box {
+        height: 60px;
+    }
+}
+@media (min-width: 1200px) {
+    .col-xl-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+}
+
+.left-indent {
+    margin-left: 15px;
+}
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 0;
+}
+
+    .radio-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fdb813;
+    border-radius: 50%;
+}
+.form-remark {
+    font-size: 15px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.text-grey {
+    color: #757575;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.datalistWrapper {
+    position: absolute;
+    left: 0;
+    min-width: 100%;
+    top: 75%;
+    z-index: 4;
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 2;
+    cursor: pointer;
+    max-height: 130px;
+    overflow-y: auto;
+}
+.form-textbox {
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    height: inherit;
+    padding-left: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.form-textbox-icon {
+    color: #c5c5c5;
+    font-size: 20px;
+}
+
+
+
+
+.text-danger {
+    color: #d9534f !important;
+}
+
+small {
+    font-weight: 400;
+    font-size: 80%;
+}
+
+.form-selector {
+    margin-bottom: 5px;
+    position: relative;
+}
+.menu {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.menu-column-selected {
+    background-color: #fdb813;
+}
+.menu-column-left {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.menu-column-right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.menu-column {
+    width: 50%;
+    background-color: #fff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+a {
+    text-decoration: none;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .body-content {
